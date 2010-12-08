@@ -1,6 +1,6 @@
 Name:		udav
 Version:	0.6
-Release:	%mkrel 2
+Release:	%mkrel 3
 Summary:	Fast and interactive data plotting based on MathGL
 Group:		Sciences/Mathematics
 License:	GPLv2+
