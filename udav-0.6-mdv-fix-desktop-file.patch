@@ -1,0 +1,41 @@
+diff -uNr udav-0.6.ori/UDAV.desktop udav-0.6/UDAV.desktop
+--- udav-0.6.ori/UDAV.desktop	2009-12-24 18:38:13.000000000 +0100
++++ udav-0.6/UDAV.desktop	1970-01-01 01:00:00.000000000 +0100
+@@ -1,11 +0,0 @@
+-[Desktop Entry]
+-Encoding=UTF-8
+-Version=1.0
+-Type=Application
+-Terminal=false
+-Icon=/usr/local/share/udav/udav.png
+-Name=UDAV
+-Exec=udav
+-Comment[en_US]=Data handling and plotting tool
+-Comment[ru_RU]=Обработка и отображение данных
+-Categories=Education;Science;Math;
+diff -uNr udav-0.6.ori/src/src.pro udav-0.6/src/src.pro
+--- udav-0.6.ori/src/src.pro	2009-12-24 18:38:09.000000000 +0100
++++ udav-0.6/src/src.pro	2010-01-08 19:22:58.000000000 +0100
+@@ -51,7 +51,7 @@
+ LIBS += -lmgl \
+     -lhdf5
+ ../help/*.html.files += ../help/*.html
+-desc.files += ../UDAV.desktop
++desc.files += ../udav.desktop
+ icon.files += udav.png
+ help.files += ../help/*.html
+ pics.files += ../help/pics/*.png
+diff -uNr udav-0.6.ori/udav.desktop udav-0.6/udav.desktop
+--- udav-0.6.ori/udav.desktop	1970-01-01 01:00:00.000000000 +0100
++++ udav-0.6/udav.desktop	2010-01-08 19:19:52.000000000 +0100
+@@ -0,0 +1,10 @@
++[Desktop Entry]
++Version=1.0
++Name=Udav
++Comment=Data handling and plotting tool
++Comment[ru_RU]=Обработка и отображение данных
++Exec=udav
++Icon=udav
++Terminal=false
++Type=Application
++Categories=Science;DataVisualization;
