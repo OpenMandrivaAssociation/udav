@@ -62,3 +62,19 @@ install -D -m 0644 %{name}.1 %{buildroot}%{_mandir}/man1
 
 %clean
 rm -rf %{buildroot}
+
+
+%changelog
+* Wed Dec 08 2010 Oden Eriksson <oeriksson@mandriva.com> 0.6-3mdv2011.0
++ Revision: 615284
+- the mass rebuild of 2010.1 packages
+
+* Fri Jan 08 2010 Jérôme Brenier <incubusss@mandriva.org> 0.6-2mdv2010.1
++ Revision: 487754
+- fix typo in the summary
+
+* Fri Jan 08 2010 Jérôme Brenier <incubusss@mandriva.org> 0.6-1mdv2010.1
++ Revision: 487748
+- import udav
+
+
