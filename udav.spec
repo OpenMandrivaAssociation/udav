@@ -4,7 +4,7 @@ Release:	5
 Summary:	Fast and interactive data plotting based on MathGL
 Group:		Sciences/Mathematics
 License:	GPLv2+
-Url:		http://udav.sourceforge.net/
+Url:		https://udav.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/udav/%{name}-%{version}.tgz
 Patch0:		udav-0.6-mdv-fix-desktop-file.patch
 
